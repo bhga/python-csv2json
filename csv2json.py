@@ -10,7 +10,6 @@ schemabody = {}
 with open(inputpath,'r') as file:
     csvreader = csv.DictReader(file,delimiter=dlm)
     print("Successfully read the input file")
-    print(csvreader)
     columns=[]
     for r in csvreader:
         columns.append(r)
